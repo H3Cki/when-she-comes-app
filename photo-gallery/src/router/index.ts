@@ -7,10 +7,10 @@ const routes: Array<RouteRecordRaw> = [
     path: '/tabs/',
     component: TabsPage,
     children: [
-      {
-        path: '',
-        redirect: '/tabs/tab1'
-      },
+      // {
+      //   path: '',
+      //   redirect: '/tabs/tab1'
+      // },
       {
         path: 'tab1',
         component: () => import('@/views/Tab1Page.vue')
